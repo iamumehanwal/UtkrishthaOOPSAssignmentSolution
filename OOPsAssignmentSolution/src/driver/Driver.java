@@ -31,7 +31,7 @@ public class Driver {
 		TechDepartment techobj = new TechDepartment();		//TechDepartment object reference and initialization
 		SuperDepartment techobj2 = new TechDepartment();	//SuperDepartment object, reference to TechDepartment
 		
-		//Invoking the methods of TechDepartment
+		//Invoking the methods of Class TechDepartment
 		System.out.println("Welcome to " + techobj.departmentName());
 		System.out.println(techobj.getTodaysWork());
 		System.out.println(techobj.getWorkDeadline());
